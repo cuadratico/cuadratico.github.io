@@ -4,8 +4,27 @@
     --gris: #353434;
     --blue: #5898df;
     --blue_2: 2f4b64;
+    --border: 25px;
+}
+
+.fondo {
+    background-color: var(--blue);
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: var(--border);
+    margin-top: 10px;
+}
+
+.logo{
+    border-radius: var(--border);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 body {
     background-color: var(--gris);
+    height: 100%;
+    width: 100%;
 }
