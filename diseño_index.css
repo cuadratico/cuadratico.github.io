@@ -1,1 +1,11 @@
 
+
+:root {
+    --gris: #353434;
+    --blue: #5898df;
+    --blue_2: 2f4b64;
+}
+
+body {
+    background-color: var(--gris);
+}
