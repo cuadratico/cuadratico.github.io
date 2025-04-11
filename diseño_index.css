@@ -16,7 +16,7 @@
     margin-top: 10px;
 }
 
-.logo{
+img{
     border-radius: var(--border);
     margin-top: 15px;
     margin-bottom: 15px;
@@ -25,6 +25,38 @@
 
 body {
     background-color: var(--gris);
-    height: 100%;
-    width: 100%;
+    height: 0;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descripcion {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: var(--border);
+}
+
+fieldset {
+    border-radius: var(--border);
+    border-color: var(--blue);
+    display: flex;
+}
+
+legend {
+    color: white;
+}
+
+.texto_chat {
+    color: white;
+}
+
