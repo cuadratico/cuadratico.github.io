@@ -39,13 +39,6 @@ h1 {
     text-align: center;
 }
 
-footer {
-    height: 50px;
-    width: 100%;
-    background-color: var(--blue);
-    border-radius: var(--border);
-}
-
 fieldset {
     border-radius: var(--border);
     border-color: var(--blue);
@@ -71,7 +64,23 @@ legend {
 .enlaces {
     color: var(--blue_2);
     margin: 0 auto;
+    text-decoration: none;
+}
+
+
+.footer {
+    background-color: var(--blue);
+    margin-top: 20px;
+    border-radius: var(--border);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 50px;
     display: flex;
     align-items: center;
+}
+.email {
+    color: var(--blue_2);
     text-decoration: none;
+    margin: 0 auto;
 }
